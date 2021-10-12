@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-p3h)gl)!6uu&bs+(_h_=)^w!-*a(#$78@wr=kwp6amznmtpnb8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://git.heroku.com/polar-tundra-49635.git"]
 
 
 # Application definition
